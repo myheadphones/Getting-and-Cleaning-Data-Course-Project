@@ -79,32 +79,32 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 Note: '_XYZ' is used to denote 3-axial signals in each of the X, Y and Z directions and are represented by 3 variables, one for each of the dimensions.
 
-TimeBodyAcc_XYZ
-TimeGravityAcc_XYZ
-TimeBodyAccJerk_XYZ
-TimeBodyGyro_XYZ
-TimeBodyGyroJerk-XYZ
-TimeBodyAccMag
-TimeGravityAccMag
-TimeBodyAccJerkMag
-TimeBodyGyroMag
-TimeBodyGyroJerkMag
-FreqBodyAcc_XYZ
-FreqBodyAccJerk_XYZ
-FreqBodyGyro_XYZ
-FreqBodyAccMag
-FreqBodyAccJerkMag
-FreqBodyGyroMag
-FreqBodyGyroJerkMag
+- TimeBodyAcc_XYZ
+- TimeGravityAcc_XYZ
+- TimeBodyAccJerk_XYZ
+- TimeBodyGyro_XYZ
+- TimeBodyGyroJerk-XYZ
+- TimeBodyAccMag
+- TimeGravityAccMag
+- TimeBodyAccJerkMag
+- TimeBodyGyroMag
+- TimeBodyGyroJerkMag
+- FreqBodyAcc_XYZ
+- FreqBodyAccJerk_XYZ
+- FreqBodyGyro_XYZ
+- FreqBodyAccMag
+- FreqBodyAccJerkMag
+- FreqBodyGyroMag
+- FreqBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
-MeanFreq: Weighted average of the frequency components to obtain a mean frequency
-Angle: Angle between to vectors.
+- MeanFreq: Weighted average of the frequency components to obtain a mean frequency
+- Angle: Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-GravityMean
-TimeBodyAccMean
-TimeBodyAccJerkMean
-TimeBodyGyroMean
-TimeBodyGyroJerkMean
+- GravityMean
+- TimeBodyAccMean
+- TimeBodyAccJerkMean
+- TimeBodyGyroMean
+- TimeBodyGyroJerkMean
